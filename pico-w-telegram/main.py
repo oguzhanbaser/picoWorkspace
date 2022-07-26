@@ -17,8 +17,8 @@ lcd.clear()
 
 d = dht.DHT11(machine.Pin(15))
 
-ssid = 'SUPERONLINE_WiFi_7938'
-pswd = '47VF4PXKJKFX'
+ssid = 'WIFI_SSID'
+pswd = 'WIFI_PASWD'
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
